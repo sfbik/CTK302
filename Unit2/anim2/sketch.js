@@ -9,9 +9,12 @@ function setup() {
 
 function draw() {
   background(255);
-  translate(x, 0);
 
+  push();
+  translate(x, 0);
   avatar();
+  pop();
+
   x += 5;
   if (x > width) {
     x = -300;
