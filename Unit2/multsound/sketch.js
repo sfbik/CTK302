@@ -1,4 +1,4 @@
-let state = 0;
+let state = -1;
 let s1, s2, s3;
 
 function preload() {
@@ -16,6 +16,13 @@ function draw() {
   background(100);
 
   switch(state) {
+    case -1:
+      background('white');
+      fill('black');
+      textSize(15);
+      text("Click to Begin.", 250, 250);
+      break;
+
     case 0:
       background('green');
       fill('white');
