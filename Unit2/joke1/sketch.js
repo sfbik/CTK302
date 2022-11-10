@@ -6,6 +6,7 @@ function setup() {
 }
 
 function draw() {
+<<<<<<< HEAD
   switch (state) {
     case 0:
       background("grey");
@@ -29,3 +30,30 @@ function mouseReleased() {
   }
 }
 
+=======
+
+  switch(state) {
+    case 0:
+      background('green');
+      fill('white');
+      textSize(16);
+      text("There are three types of people in this world...", 250, 250);
+      break;
+
+    case 1:
+      background('blue');
+      fill('white');
+      textSize(16);
+      text("...those who can count and those who can't.", 250, 250);
+      break;
+  }
+
+}
+
+function mouseReleased() {
+  state++;
+  if (state > 1) {
+    state = 0;
+  }
+}
+>>>>>>> b500fa1a4045a4a8856001c8283cdc97dcf464e7
