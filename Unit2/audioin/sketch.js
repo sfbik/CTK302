@@ -31,7 +31,7 @@ function draw() {
   rect(0, 200, 400, 50);
 
   // this moves the box
-  //  x = vol*200 ;
+  let x = vol*200 ;
   fill('orange');
   x = map(vol, 0, 1, 0, width);
   rect(x, 200, 50, 50);
