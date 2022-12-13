@@ -29,7 +29,7 @@ function setup() {
 
  // let myIDString = "appid=xxxxx"; // put your ID instead of xxxxx
   
-  let myIDString = "appid=2ab3fd961cc8c4aacb1786ddb79e8da5" ;
+  let myIDString = "appid=f37bd010b6c7b5dd9397e498e137cfa4" ;
 
   let myTotalString = myCityString + myIDString;
   
@@ -75,7 +75,6 @@ function draw() {
       // move the cloud's x position
       x = x + windspeed / 3;
       if (x > width+100) x = -100;
-
       break;
   }
 }
