@@ -8,6 +8,10 @@ var vol = 0;
 
 let p1, p2, p3, bg;
 
+function touchStarted() {
+  getAudioContext().resume();
+}
+
 function setup() {
   createCanvas(800, 800);
 
